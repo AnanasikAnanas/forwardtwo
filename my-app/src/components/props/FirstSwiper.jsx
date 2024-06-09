@@ -5,8 +5,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TwoShop from '/Vector.svg'
 import SliderPicture from '/slider (1).svg'
-import SecondSliderPicture from '/slider (2).svg'
-import ThirdSliderPicture from '/slider (3).svg'
+import SecondSliderPicture from '/slider (7).svg'
+import ThirdSliderPicture from '/slider (8).svg'
 import Prev from '/ArrowLeft.svg'
 import Next from '/ArrowRight.svg'
 
@@ -41,7 +41,7 @@ function FirstSwiper() {
                     <p className='text-[24px]'>Название товара</p>
                     <p className='flex gap-2 items-center text-[36px]'>0 <img src={Subtract} alt="" className=''/></p>
                 </div>
-                <a href="" className='p-3 rounded-[24px] color-1 flex justify-center items-center gap-2 text-[24px]'>В корзину <img src={TwoShop} alt="" /></a>
+                <a href="" className='p-3 rounded-[24px] color-1 flex justify-center items-center gap-2 text-[24px] hover:opacity-70 duration-500'>В корзину <img src={TwoShop} alt="" /></a>
             </div>
             </Swiper>
             
